@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_action_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/list"
+        android:title="ListView"
+        android:icon="@drawable/ic_action_list"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/grid"
+        android:title="GridView"
+        android:icon="@drawable/ic_action_grid"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/profil"
+        android:title="About"
+        android:icon="@drawable/ic_action_profil"
+        app:showAsAction="always"/>
+</menu>
